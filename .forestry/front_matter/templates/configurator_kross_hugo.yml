@@ -1,4 +1,9 @@
 ---
 label: Configurator_Kross_Hugo
 hide_body: true
-fields: []
+fields:
+- name: base_url
+  type: text
+  config:
+    required: false
+  label: Base URL
